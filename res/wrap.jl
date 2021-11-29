@@ -10,7 +10,9 @@ push!(args, "-I$include_dir")
 
 bluetooth = joinpath(include_dir, "bluetooth")
 
-headers = [joinpath(bluetooth, header) for header in ["bluetooth.h"]]
+headers = [joinpath(bluetooth, header) for header in ["bluetooth.h", "sdp_lib.h", "hci_lib.h"]]
+
+# @add_def uint8_t
 
 ctx = create_context(headers, args, options)
 build!(ctx)
