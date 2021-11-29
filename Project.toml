@@ -1,0 +1,8 @@
+name = "Blue"
+uuid = "9477928e-d5ad-4aad-a16f-5cf7609e04e9"
+authors = ["Valentin Churavy <v.churavy@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BlueZ_jll = "471b5b61-da80-5748-8755-67d5084d21f2"
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
